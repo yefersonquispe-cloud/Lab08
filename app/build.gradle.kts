@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     id("org.jetbrains.kotlin.android")
     alias(libs.plugins.kotlin.compose)
-    id("com.google.devtools.ksp")
+    alias(libs.plugins.ksp)
 }
 
 android {
@@ -42,7 +42,7 @@ android {
     }
 }
 
-val room_version = "2.6.1"
+val room_version = "2.7.2"
 
 dependencies {
 
